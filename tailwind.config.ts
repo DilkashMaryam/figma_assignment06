@@ -13,7 +13,7 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
       screens:{
-        "md":"1024px",
+        "md":"1280px",
         "sm": "400px"
       },
       colors: {

@@ -9,7 +9,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div>
-        <div className='w-full h-[54px] max-sm:hidden max-md:hidden px-[64px] lg:px[64px] bg-[#F7F7F7] items-center flex border-b-2 border-[#000000]'>
+        <div className='w-full h-[54px] sm:max-md:hidden px-[64px] xl:px[64px] bg-[#F7F7F7] items-center flex border-b-2 border-[#000000]'>
            <div className='text-[#000000] font-Roboto text-normal text-[14px] flex gap-2 items-center mt-4 w-[500px]'>
             <p>Phone Number: 956 742 455 678</p>
             <span>|</span>
@@ -22,10 +22,10 @@ const Header = () => {
             <FaLinkedin />
            </div>
         </div>
-        <div className=' w-full h-[72px] mt-[20px] sm:px[64px] sm-w-full gap-[100px] bg-[#F7F7F7] px-[64px] border-[1px] border-b-[#676767] border-transparent flex justify-between items-center'>
+        <div className=' w-full h-[72px] mt-[20px] sm:px[64px] sm:max-md:w-full gap-[100px] bg-[#F7F7F7] px-[64px] border-[1px] border-b-[#676767] border-transparent flex justify-between items-center'>
            <div className='w-[130.6px] h-[41px] pt-[29px] pb-[29px] flex items-center '>
            <Image src="/images/Frame 1.png" alt='logo' width={32.58} height={30}></Image>
-           <h1 className=' text-[25.07px] pt-3 sm:text-[25.o7px] font-Inter font-bold ml-3 text-[#000000]'>Ddsgnr</h1>
+           <h1 className=' text-[25.07px] pt-3 sm:max-md:text-[25.07px] font-Inter font-bold ml-3 text-[#000000]'>Ddsgnr</h1>
            </div>
            <div className='md:hidden'>
             <button onClick={() => setMenuOpen(!menuOpen)}>

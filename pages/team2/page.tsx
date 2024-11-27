@@ -5,10 +5,10 @@ import { FaTwitter } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 const Team2 = () => {
   return (
-    <div className='w-full h-[995px] mt-[10px] gap-[80px] bg-[#F7F7F7] sm:max-md:mt-[1700px] sm:max-md:w-[428px] sm:max-md:h-[1300px]'>
+    <div className='w-full h-[995px] mt-[10px] gap-[80px] bg-[#F7F7F7] sm:max-md:mt-[2200px] sm:max-md:w-full sm:max-md:h-[1300px]'>
       <div className='w-full h-[109px] gap-[16px] pt-[100px] sm:max-md:w-full sm:max-md:h-auto'>
-        <h1 className='font-Roboto font-bold text-[48px] ml-[550px] sm:max-md:h-[42px] sm:max-md:text-[32px] sm:max-md:ml-10 sm:max-md:text-center'>Our team</h1>
-        <p className='font-Roboto font-normal text-[18px] ml-[450px] sm:max-md:h-[54px] sm:max-md:text-[18px] sm:max-md:ml-10 sm:max-md:mt-6 sm:max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <h1 className='font-Roboto font-bold text-[48px] ml-[550px] sm:max-md:h-[42px] sm:max-md:text-[40px] sm:max-md:ml-10 sm:max-md:text-center'>Our team</h1>
+        <p className='font-Roboto font-normal text-[18px] ml-[450px] sm:max-md:h-[54px] sm:max-md:text-[22px] sm:max-md:ml-10 sm:max-md:mt-6 sm:max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
       </div>
       <div className='w-[1280px] h-[300px] gap-[96px] mt-52 flex sm:max-md:flex-col sm:max-md:w-full sm:max-md:h-[723px] sm:max-md:items-center'>
         <div className='w-[394px] h-[209px] gap-[24px]'> 
@@ -86,7 +86,7 @@ const Team2 = () => {
         </div>
         </div>
       </div>
-      <button className='lg:hidden sm:max-md:font-Roboto sm:max-md:font-normal sm:max-md:text-[16px] sm:max-md:mt-24 sm:max-md:rounded sm:max-md:border-[1px] sm:max-md:border-[#000000] sm:max-md:p-2 sm:max-md:w-[89px] sm:max-md:h-[40px] sm:max-md:ml-40'>View All</button>
+      <button className='lg:hidden sm:max-md:font-Roboto sm:max-md:font-normal sm:max-md:text-[20px] sm:max-md:mt-24 sm:max-md:rounded sm:max-md:border-[1px] sm:max-md:border-[#000000] sm:max-md:p-2 sm:max-md:w-[89px] sm:max-md:h-[40px] sm:max-md:ml-72'>View All</button>
     </div>
   )
 }

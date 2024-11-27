@@ -5,12 +5,12 @@ import { FaTwitter } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 const Team2 = () => {
   return (
-    <div className='w-full h-[995px] mt-[10px] gap-[80px] bg-[#F7F7F7] max-md:mt-[1700px] max-md:w-full max-md:h-[1300px]'>
-      <div className='w-full h-[109px] gap-[16px] pt-[100px] max-md:w-full max-md:h-auto max-md:text-center'>
-        <h1 className='font-Roboto font-bold text-[48px] ml-[550px] max-md:h-[42px] max-md:text-[32px] max-md:ml-10'>Our team</h1>
-        <p className='font-Roboto font-normal text-[18px] ml-[450px] max-md:h-[54px] max-md:text-[24px] max-md:ml-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <div className='w-full h-[995px] mt-[10px] gap-[80px] bg-[#F7F7F7] sm:max-md:mt-[1700px] sm:max-md:w-[428px] sm:max-md:h-[1300px]'>
+      <div className='w-full h-[109px] gap-[16px] pt-[100px] sm:max-md:w-full sm:max-md:h-auto'>
+        <h1 className='font-Roboto font-bold text-[48px] ml-[550px] sm:max-md:h-[42px] sm:max-md:text-[32px] sm:max-md:ml-10 sm:max-md:text-center'>Our team</h1>
+        <p className='font-Roboto font-normal text-[18px] ml-[450px] sm:max-md:h-[54px] sm:max-md:text-[18px] sm:max-md:ml-10 sm:max-md:mt-6 sm:max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
       </div>
-      <div className='w-[1280px] h-[300px] gap-[96px] mt-52 flex max-md:flex-col max-md:w-full max-md:h-[723px] max-md:items-center'>
+      <div className='w-[1280px] h-[300px] gap-[96px] mt-52 flex sm:max-md:flex-col sm:max-md:w-full sm:max-md:h-[723px] sm:max-md:items-center'>
         <div className='w-[394px] h-[209px] gap-[24px]'> 
           <Image src="/images/team1.png" alt="pic1" width={80} height={80} className='ml-36'></Image>
           <div className='w-[394px] h-[57px] gap-[16px] mt-5'>
@@ -48,7 +48,7 @@ const Team2 = () => {
         </div>
         </div>
       </div>
-      <div className='w-[1280px] h-[350px] gap-[96px] flex max-md:hidden'>
+      <div className='w-[1280px] h-[350px] gap-[96px] flex sm:max-md:hidden'>
         <div className='w-[394px] h-[209px] gap-[24px]'>
           <Image src="/images/team4.png" alt="pic4" width={80} height={80} className='ml-36'></Image>
           <div className='w-[394px] h-[57px] gap-[16px] mt-5'>
@@ -61,7 +61,7 @@ const Team2 = () => {
             <FaDribbble />
         </div>
         </div>
-        <div className='w-[394px] h-[209px] gap-[24px] max-md:hidden'>
+        <div className='w-[394px] h-[209px] gap-[24px] sm:max-md:hidden'>
           <Image src="/images/team5.png" alt="pic5" width={80} height={80} className='ml-36'></Image>
           <div className='w-[394px] h-[57px] gap-[16px] mt-5'>
             <h1 className='font-Roboto font-semibold text-[20px] ml-28'>Stephen Kerubo</h1>
@@ -73,7 +73,7 @@ const Team2 = () => {
             <FaDribbble />
         </div>
         </div>
-        <div className='w-[394px] h-[209px] gap-[24px] max-md:hidden '>
+        <div className='w-[394px] h-[209px] gap-[24px] sm:max-md:hidden '>
           <Image src="/images/team6.png" alt="pic6" width={80} height={80} className='ml-36'></Image>
           <div className='w-[394px] h-[57px] gap-[16px] mt-5'>
             <h1 className='font-Roboto font-semibold text-[20px] ml-32'>John Leboo</h1>
@@ -86,7 +86,7 @@ const Team2 = () => {
         </div>
         </div>
       </div>
-      <button className='lg:hidden max-md:font-Roboto max-md:font-normal max-md:text-[16px] max-md:mt-24 max-md:rounded max-md:border-[1px] max-md:border-[#000000] max-md:p-2 max-md:w-[89px] max-md:h-[40px] max-md:ml-52'>View All</button>
+      <button className='lg:hidden sm:max-md:font-Roboto sm:max-md:font-normal sm:max-md:text-[16px] sm:max-md:mt-24 sm:max-md:rounded sm:max-md:border-[1px] sm:max-md:border-[#000000] sm:max-md:p-2 sm:max-md:w-[89px] sm:max-md:h-[40px] sm:max-md:ml-40'>View All</button>
     </div>
   )
 }

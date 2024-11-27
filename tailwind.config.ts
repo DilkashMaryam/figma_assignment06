@@ -13,8 +13,8 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
       screens:{
-        "md":"768px",
-        "sm": "428px"
+        "md":"1024px",
+        "sm": "400px"
       },
       colors: {
         background: "var(--background)",

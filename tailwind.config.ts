@@ -12,6 +12,10 @@ export default {
         roboto: ['Roboto', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
       },
+      screens:{
+        "md":"768px",
+        "sm": "428px"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
